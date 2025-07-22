@@ -1,36 +1,42 @@
 {
-  "name": "vue-material-dashboard",
-  "version": "2.0.0",
+  "name": "frontend",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "serve": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "vue-tsc --noEmit && eslint . --ext .js,.ts,.vue",
-    "prettify": "prettier --write ."
+    "lint": "eslint .",
+    "prettify": "prettier --write .",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
-    "axios": "^1.10.0",
-    "chart.js": "^4.5.0",
-    "core-js": "^3.6.5",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "vue-material": "^3.0.0-beta.1",
-    "vue-social-sharing": "^4.0.0-beta.2"
+    "pinia": "^3.0.3",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.3.6",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1",
+    "vuetify": "^3.9.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "@vue/eslint-config-typescript": "^13.0.0",
-    "eslint": "^8.56.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.17.0",
-    "prettier": "^2.8.8",
-    "sass": "^1.71.1",
-    "sass-loader": "^14.1.0",
-    "typescript": "^5.4.0",
-    "vite": "^5.2.0",
-    "vue-tsc": "^2.0.10"
+    "@types/jest": "^30.0.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vitest/ui": "^3.2.4",
+    "@vue/test-utils": "^2.4.6",
+    "babel-jest": "^30.0.5",
+    "eslint": "^9.31.0",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.6.2",
+    "sass": "^1.89.2",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.4",
+    "vitest": "^3.2.4",
+    "vue-jest": "^5.0.0-alpha.10",
+    "vue-tsc": "^3.0.3"
   }
 }
