@@ -36,8 +36,8 @@
     </nav>
 
     <div class="user-profile">
-      <span class="hello-user">Oi, "nome_user"</span>
-      <a href="#profile"><img :src="userPhoto" alt="User Profile" /></a>
+      <span class="logar">Logar</span>
+      <span class="register">Registrar</span>
     </div>
   </div>
 
@@ -156,24 +156,32 @@ header {
 
 .user-profile {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  flex-direction: column;
+  gap: 10px;
   margin-left: 100px;
 }
-
-.hello-user {
-  color: #fff;
-  width: 120px;
+.user-profile span {
+  transition: color 0.2s, background 0.2s, transform 0.2s;
+  cursor: pointer;
   display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: right;
 }
-.user-profile img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+.user-profile span:hover {
+  color: #726b6b;
+  background: #191717;
+  transform: translateY(-4px);
+}
+.logar {
+  color: #fff;
+  border: 1px solid #4e4848;
+  background-color: rgb(41, 35, 35);
+  padding: 1px 10px;
+}
+
+.register {
+  color: #fff;
+  border: 1px solid #4e4848;
+  background-color: rgb(41, 35, 35);
+  padding: 1px 10px;
 }
 
 .main-content-area {
