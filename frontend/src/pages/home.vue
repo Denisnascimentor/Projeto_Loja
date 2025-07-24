@@ -1,17 +1,23 @@
 <template>
   <header>
-    <div class="logo-left">
+    <div class="top-strip">
       <a href="#"><img :src="logo" alt="Logo" /></a>
+      <dev class="center-container">
+        <form class="search-form" @submit.prevent>
+          <input
+            type="search"
+            placeholder="Pesquisar..."
+            class="search-input"
+          />
+          <button type="submit" class="search-btn">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+      </dev>
     </div>
-    <dev class="center-container">
-      <form class="search-form" @submit.prevent>
-        <input type="search" placeholder="Pesquisar..." class="search-input" />
-        <button type="submit" class="search-btn">
-          <i class="ri-search-line"></i>
-        </button>
-      </form>
-    </dev>
+  </header>
 
+  <div class="secondary-strip">
     <nav class="nav-bar">
       <ul class="nav-list">
         <li>
@@ -28,38 +34,61 @@
         </li>
       </ul>
     </nav>
-  </header>
+
+    <div class="user-profile">
+      <span class="hello-user">Oi, "nome_user"</span>
+      <a href="#profile"><img :src="userPhoto" alt="User Profile" /></a>
+    </div>
+  </div>
+
+  <section class="main-content-area">
+    <div class="pix-donation-card">
+      <img src="/src/assets/img/pix.png" alt="donation-card" />
+    </div>
+
+    <div class="content-col">
+      <h2>Últimas Atualizações</h2>
+      <!-- Aqui você pode adicionar os cards de atualizações -->
+    </div>
+
+    <aside class="sidebar-col">
+      <div class="box-help-us">
+        <h1><i class="ri-hand-heart-line"></i> DOE</h1>
+        <img src="/src/assets/img/apoia.png" alt="" />
+      </div>
+      <!-- Você pode adicionar outros blocos aqui, como "Mais Lidos" -->
+    </aside>
+  </section>
 </template>
 
 <script setup lang="ts">
 import logo from "@/assets/img/DeRu-logo1.png";
+import userPhoto from "@/assets/img/DeRu-logo2.png";
 </script>
 
 <style scoped>
 header {
   background-color: #271d1d;
-  height: 80px;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+}
+.top-strip {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 32px;
+  margin-right: 68vh;
+  gap: 20px;
 }
-
-.logo-left img {
+.top-strip img {
   width: 70px;
-  margin-left: 0;
-  margin-top: 0;
-  display: block;
+  height: 90 0px;
 }
 .search-form {
   display: flex;
-  align-items: center;
   background: #2c2121;
-  border-radius: 20px;
-  padding: 4px 12px;
+  border-radius: 12px;
   height: 40px;
   width: 250px;
-  margin: 0 auto;
 }
 
 .search-input {
@@ -69,7 +98,7 @@ header {
   font-size: 1rem;
   outline: none;
   padding: 8px;
-  width: 150px;
+  width: 300px;
 }
 
 .search-input:focus::placeholder {
@@ -82,8 +111,15 @@ header {
   color: #fff;
   font-size: 1.3em;
   cursor: pointer;
-  padding: 0 4.4rem;
   display: flex;
+  align-items: center;
+}
+
+.secondary-strip {
+  background-color: #302525;
+  height: 60px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .nav-bar {
@@ -94,15 +130,14 @@ header {
 }
 .nav-list {
   display: flex;
-  gap: 30px;
+  gap: 60px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin-right: 20vh;
 }
 .nav-list li a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.96rem;
   display: flex;
   align-items: center;
 }
@@ -117,5 +152,73 @@ header {
 .nav-list a:hover {
   color: #726b6b;
   transform: scale(1.2);
+}
+
+.user-profile {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.hello-user {
+  color: #fff;
+  width: 120px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.user-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.main-content-area {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.pix-donation-card img {
+  background-color: rgb(35, 30, 37);
+  border: 2px solid #271d1d;
+  box-shadow: 0 4px 38px #271d1d;
+}
+
+.content-col {
+  flex: 2 1 0;
+}
+.content-col h2 {
+  color: #271d1d;
+  font-size: 2rem;
+  margin-top: 100px;
+  border-bottom: 2px solid #271d1d;
+  display: inline-block;
+}
+.sidebar-col {
+  flex: 1 1 300px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.box-help-us {
+  border: 2px solid #271d1d;
+  border-radius: 12px;
+  background: white;
+}
+.box-help-us h1 {
+  color: #271d1d;
+  font-size: 20px;
+}
+
+.box-help-us img {
+  margin-left: 10px;
+  border-radius: 10px;
 }
 </style>
