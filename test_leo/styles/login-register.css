@@ -135,10 +135,17 @@ form {
 input {
     background-color: #fff;
     border-radius: 10px;
-    border: none;
+    border: 1px solid #ddd;
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4bb6b7;
+    box-shadow: 0 0 5px rgba(75, 182, 183, 0.3);
 }
 
 .container {
