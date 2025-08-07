@@ -114,16 +114,12 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
     if (result.success) {
         // Permite que o navegador detecte o login bem-sucedido
         // para oferecer salvar a senha
-        showMessage(result.message, result.success);
-        
-        // Salva o usuário logado
-        localStorage.setItem('currentUser', JSON.stringify(result.user));
-        
-        // Não previne o comportamento padrão para permitir que
-        // o navegador detecte o envio bem-sucedido
-        setTimeout(() => {
-            window.location.href = 'home.html';
-        }, 1000);
+    // Impede o comportamento padrão do formulário
+    e.preventDefault();
+    showMessage(result.message, result.success);
+    // Salva o usuário logado
+    localStorage.setItem('currentUser', JSON.stringify(result.user));
+    window.location.href = 'home.html';
     } else {
         e.preventDefault();
         showMessage(result.message, result.success);
