@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(230, 230, 230);
+  background-color: rgba(230, 230, 230, 1);
 }
 
 header {
@@ -108,7 +108,7 @@ header,
 }
 
 .promocoes {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #388e3c3a;
   backdrop-filter: blur(5px);
   padding: 2rem;
   height: 30rem; /* aumentei a altura */
