@@ -5,7 +5,7 @@
 }
 body {
     display: flex;
-    background-color: #f6f5f7;
+    background-color: #388e3cb4;
     justify-content: center;
     align-items: center;
     flex-direction: column;
