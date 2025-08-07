@@ -19,12 +19,33 @@
   <body>
     <div class="container" id="container">
       <div class="form-container register-container">
-        <form action="#">
+        <form id="registerForm" autocomplete="on">
           <h1>Cadastre-se</h1>
-          <input type="text" placeholder="Nome" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Senha" />
-          <button>Cadastrar</button>
+          <input 
+            type="text" 
+            id="registerName" 
+            name="name"
+            placeholder="Nome" 
+            autocomplete="name"
+            required 
+          />
+          <input 
+            type="email" 
+            id="registerEmail" 
+            name="email"
+            placeholder="Email" 
+            autocomplete="email"
+            required 
+          />
+          <input 
+            type="password" 
+            id="registerPassword" 
+            name="new-password"
+            placeholder="Senha" 
+            autocomplete="new-password"
+            required 
+          />
+          <button type="submit">Cadastrar</button>
           <span>ou use sua conta</span>
           <div class="social-container">
             <a href="#" class="social"><i class="ri-facebook-fill"></i></a>
@@ -35,10 +56,24 @@
       </div>
 
       <div class="form-container login-container">
-        <form action="#">
+        <form id="loginForm" autocomplete="on">
           <h1>Acesse sua conta</h1>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Senha" />
+          <input 
+            type="email" 
+            id="loginEmail" 
+            name="username"
+            placeholder="Email" 
+            autocomplete="username"
+            required 
+          />
+          <input 
+            type="password" 
+            id="loginPassword" 
+            name="current-password"
+            placeholder="Senha" 
+            autocomplete="current-password"
+            required 
+          />
           <div class="content">
             <div class="checkbox">
               <input type="checkbox" name="checkbox" id="checkbox" />
@@ -49,7 +84,7 @@
             </div>
           </div>
 
-          <button>Login</button>
+          <button type="submit">Login</button>
           <span>Ou use sua conta</span>
           <div class="social-container">
             <a href="#" class="social"><i class="ri-facebook-fill"></i></a>

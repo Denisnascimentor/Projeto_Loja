@@ -165,6 +165,64 @@ header {
   color: white;
 }
 
+/* Estilos para usuário logado */
+.user-info {
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.user-info h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.user-info p {
+  margin: 0.25rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.user-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.profile-btn, .orders-btn {
+  display: block;
+  background-color: #f5f5f5;
+  color: #333;
+  text-decoration: none;
+  padding: 0.6rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.profile-btn:hover, .orders-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #da190b;
+}
+
 header,
 .FistContent {
   background-image: url("../components/img/background_shop.png");
