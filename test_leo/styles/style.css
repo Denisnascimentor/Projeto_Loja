@@ -44,7 +44,7 @@ header {
   transform: translateY(-3px);
 }
 .icons a[href*="wa.me"]:hover {
-  color: #25D366;
+  color: #25d366;
   transform: translateY(-3px);
 }
 
@@ -88,7 +88,7 @@ header {
 }
 
 .navlist nav ul li:hover {
-  transform: translateY(-3px); 
+  transform: translateY(-3px);
 }
 
 header,
@@ -193,4 +193,126 @@ header,
   font-weight: bold;
   display: block;
   margin-top: 2px;
+}
+
+/* footer */
+footer {
+  background: #ffffff;
+  color: #222;
+  font-family: "Montserrat", Arial, sans-serif;
+  padding: 40px 0 0 0;
+}
+
+footer .top-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  max-width: 1600px;
+  margin: 0 auto 35px auto;
+}
+
+footer .box-name,
+footer .box-email {
+  width: 30rem;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+  background: #fff;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: #222;
+  box-shadow: none;
+  outline: none;
+  transition: border-color 0.2s;
+}
+footer .box-name:focus,
+footer .box-email:focus {
+  border-color: #29831d;
+}
+
+footer .box-register {
+  padding: 10px 18px;
+  width: 30rem;
+  background: linear-gradient(45deg, #29831d, #000000);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+footer .box-register:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.08);
+  box-shadow: 0 2px 12px rgba(41, 131, 29, 0.08);
+}
+
+footer .middle-content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  padding: 30px 0 0 0;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+footer .left-content {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex: 2 1 0;
+}
+
+footer .right-content {
+  flex: 1 1 0;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+footer .left-content > div,
+footer .left-content > address {
+  min-width: 180px;
+  flex: 1 1 0;
+}
+
+footer h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 7px;
+  color: #29831d;
+  letter-spacing: 0.5px;
+}
+
+footer p,
+footer address {
+  font-size: 0.85rem;
+  margin-bottom: 7px;
+  color: #222;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+footer a {
+  color: #29831d;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.2s;
+  font-size: 0.85rem;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer .loja-fisica p {
+  font-style: italic;
+  color: #555;
+  font-size: 0.85rem;
 }
