@@ -254,7 +254,7 @@ header,
 
 .promocoes h1 {
   font-size: 2.5rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 .slider-wrapper {
@@ -447,4 +447,157 @@ footer .loja-fisica p {
   font-style: italic;
   color: #555;
   font-size: 0.85rem;
+}
+
+/* Seção Destaques */
+.section-destaques {
+  margin: 40px auto;
+  max-width: 1500px;
+  padding: 0 20px;
+}
+.destaques-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  gap: 3;
+  padding: 0;
+  margin-bottom: 32px;
+}
+.destaques-titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #20610d;
+  letter-spacing: 1px;
+  margin-right: auto;
+}
+.destaques-ver-todos {
+  background: none;
+  color: #20610d;
+  border: none;
+  border-radius: 0;
+  padding: 0 0 0 40px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.destaques-ver-todos:hover {
+  color: #069219;
+  text-decoration: underline;
+}
+
+/* Box dos produtos em destaque */
+.destaques-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 32px;
+  overflow-x: hidden;
+  padding-bottom: 12px;
+  margin-top: 18px;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  min-height: 180px;
+  justify-content: flex-start;
+  scrollbar-width: thin;
+  scrollbar-color: #0078ff #eee;
+}
+.destaques-box::-webkit-scrollbar {
+  display: none;
+}
+.destaque-card {
+  min-width: 200px;
+  max-width: 200px;
+}
+.destaque-card {
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 18px 16px 14px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.destaque-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+}
+.destaque-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+.destaque-info {
+  text-align: center;
+}
+.destaque-nome {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+.destaque-preco {
+  display: block;
+  font-size: 1.05rem;
+  color: #0078ff;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.destaque-desconto {
+  display: block;
+  font-size: 0.95rem;
+  color: #e1306c;
+  font-weight: 600;
+}
+
+/* Slider setas */
+.destaques-slider-arrow {
+  position: relative;
+  margin: 0 12px;
+  top: 50%;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #222;
+  box-shadow: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.destaques-slider-arrow:hover {
+  background: #eee;
+  color: #0c4d04;
+}
+.destaques-slider-arrow.left {
+  left: 0;
+}
+.destaques-slider-arrow.right {
+  right: 0;
+}
+.destaques-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 0;
 }

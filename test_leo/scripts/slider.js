@@ -79,3 +79,37 @@ slides.addEventListener("touchend", () => {
 slides.addEventListener("dragstart", (e) => e.preventDefault());
 
 animate();
+
+document.addEventListener('DOMContentLoaded', function() {
+  fetch('../components/produtos_destaque.json')
+    .then(response => response.json())
+    .then(produtos => {
+      const box = document.querySelector('.destaques-box');
+      box.innerHTML = '';
+      produtos.forEach(produto => {
+        const card = document.createElement('div');
+        card.className = 'destaque-card';
+        card.innerHTML = `
+          <img src="${produto.imagem}" alt="${produto.nome}" class="destaque-img" />
+          <div class="destaque-info">
+            <span class="destaque-nome">${produto.nome}</span>
+            <span class="destaque-preco">${produto.preco}</span>
+            <span class="destaque-desconto">${produto.desconto}</span>
+          </div>
+        `;
+        box.appendChild(card);
+      });
+    });
+
+  // Slider arrows
+  const leftArrow = document.querySelector('.destaques-slider-arrow.left');
+  const rightArrow = document.querySelector('.destaques-slider-arrow.right');
+  const sliderBox = document.querySelector('.destaques-box');
+
+  leftArrow.addEventListener('click', function() {
+    sliderBox.scrollBy({ left: -250, behavior: 'smooth' });
+  });
+  rightArrow.addEventListener('click', function() {
+    sliderBox.scrollBy({ left: 250, behavior: 'smooth' });
+  });
+});

@@ -1,0 +1,92 @@
+[
+  {
+    "nome": "RTX 2060",
+    "preco": "R$ 1.599,90",
+    "desconto": "-20%",
+    "imagem": "/components/img/products/gpu/rtx-2060-1.jpg"
+  },
+  {
+    "nome": "RAM Crucial 2666MHz",
+    "preco": "R$ 199,90",
+    "desconto": "-20%",
+    "imagem": "/components/img/products/ram/crucial-2666-1.jpg"
+  },
+  {
+    "nome": "Placa-mãe ASRock B450M",
+    "preco": "R$ 499,90",
+    "desconto": "-17%",
+    "imagem": "/components/img/products/motherboard/asrock-b450m-2.jpg"
+  },
+  {
+    "nome": "Gabinete Corsair",
+    "preco": "R$ 379,90",
+    "desconto": "-17%",
+    "imagem": "/components/img/products/gabinete/corsair-2.jpg"
+  },
+  {
+    "nome": "SSD Crucial 240GB",
+    "preco": "R$ 149,90",
+    "desconto": "-25%",
+    "imagem": "/components/img/products/ssd/crucial-240-2.jpg"
+  },
+  {
+    "nome": "RAM XPG 3600MHz",
+    "preco": "R$ 299,90",
+    "desconto": "-25%",
+    "imagem": "/components/img/products/ram/xpg-3600-2.jpg"
+  },
+  {
+    "nome": "Fonte XPG 650W",
+    "preco": "R$ 399,90",
+    "desconto": "-15%",
+    "imagem": "/components/img/products/fonte/xpg-650-1.jpg"
+  },
+  {
+    "nome": "Placa de vídeo RX 6600 XT",
+    "preco": "R$ 2.299,90",
+    "desconto": "-18%",
+    "imagem": "/components/img/products/gpu/rx-6600xt-1.jpg"
+  },
+  {
+    "nome": "Gabinete Redragon",
+    "preco": "R$ 299,90",
+    "desconto": "-10%",
+    "imagem": "/components/img/products/gabinete/redragon-1.jpg"
+  },
+  {
+    "nome": "Placa-mãe ASUS B550M",
+    "preco": "R$ 799,90",
+    "desconto": "-12%",
+    "imagem": "/components/img/products/motherboard/asus-b550m-1.jpg"
+  },
+  {
+    "nome": "Memória Crucial 3000MHz",
+    "preco": "R$ 249,90",
+    "desconto": "-18%",
+    "imagem": "/components/img/products/ram/crucial-3000-1.jpg"
+  },
+  {
+    "nome": "Fonte Gigabyte P550B",
+    "preco": "R$ 349,90",
+    "desconto": "-14%",
+    "imagem": "/components/img/products/fonte/gigabyte-p550b-1.jpg"
+  },
+  {
+    "nome": "Placa de vídeo RTX 3050",
+    "preco": "R$ 1.299,90",
+    "desconto": "-16%",
+    "imagem": "/components/img/products/gpu/rtx-3050-1.jpg"
+  },
+  {
+    "nome": "Gabinete Sharkoon VS7",
+    "preco": "R$ 399,90",
+    "desconto": "-13%",
+    "imagem": "/components/img/products/gabinete/sharkoon-vs7-1.jpg"
+  },
+  {
+    "nome": "Memória XPG 4133MHz",
+    "preco": "R$ 499,90",
+    "desconto": "-20%",
+    "imagem": "/components/img/products/ram/xpg-4133-1.jpg"
+  }
+]
