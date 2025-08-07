@@ -47,6 +47,10 @@ header {
   color: #25d366;
   transform: translateY(-3px);
 }
+.icons a[href*="mailto"]:hover {
+  color: #5b33ca;
+  transform: translateY(-3px);
+}
 
 .bar-logo {
   background-color: rgba(0, 0, 0, 0.815);
@@ -64,6 +68,8 @@ header {
   align-items: center;
   height: 40px;
   width: 100%;
+  padding: 0 2rem;
+  position: relative;
 }
 
 .navlist nav ul {
@@ -91,6 +97,74 @@ header {
   transform: translateY(-3px);
 }
 
+.nav-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: absolute;
+  right: 2.8rem;
+}
+
+.nav-icons a {
+  color: white;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-shadow: 1px 1px 3px #d1d1d1;
+  text-decoration: none
+}
+
+.nav-icons a:hover {
+  transform: translateY(-5px);
+  color: #3cd65e;
+}
+
+/* Popup do usuário */
+.user-popup {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  min-width: 200px;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.user-popup.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.popup-content p {
+  margin: 0 0 1rem 0;
+  color: #000;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.connect-btn {
+  display: block;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  padding: 0.1rem 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.connect-btn:hover {
+  background-color: #000000;
+  color: white;
+}
+
 header,
 .FistContent {
   background-image: url("../components/img/background_shop.png");
@@ -111,7 +185,7 @@ header,
   background-color: #388e3c3a;
   backdrop-filter: blur(5px);
   padding: 2rem;
-  height: 30rem; /* aumentei a altura */
+  height: 30rem; 
   width: 83%;
   border-radius: 15px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.918);
@@ -127,11 +201,11 @@ header,
 
 .slider-wrapper {
   width: 100%;
-  height: 100%; /* agora pega a altura da promoções */
+  height: 100%;
   overflow: hidden;
   position: relative;
   display: flex;
-  align-items: center; /* centraliza verticalmente os produtos */
+  align-items: center;
   justify-content: flex-start;
 }
 

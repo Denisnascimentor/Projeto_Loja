@@ -10,27 +10,24 @@
     <!-- Fav Icon -->
     <link rel="shortcut icon" href="/components/img/fav_icon.png" />
 
-    <!-- Import Phosphor Icons -->
+    <!-- Import Remix Icons -->
     <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
   </head>
   <body>
     <header>
       <div class="on-top-br">
         <div class="icons">
+          <a href="mailto:anjosruanp@gmail.com">
+            <i class="ri-mail-line"></i>
+          </a>
           <a href="https://www.instagram.com/leoinformaticaphb/"
-            ><i class="ph ph-instagram-logo"></i
+            ><i class="ri-instagram-line"></i
           ></a>
           <a href="https://wa.me/5586994793195" target="_blank"
-            ><i class="ph ph-whatsapp-logo"></i
+            ><i class="ri-whatsapp-fill"></i
           ></a>
         </div>
       </div>
@@ -47,6 +44,17 @@
             <li><a href="#">Ofertas</a></li>
           </ul>
         </nav>
+        <div class="nav-icons">
+          <a href="#"><i class="ri-shopping-cart-2-fill"></i></a>
+          <a href="#" id="user-icon"><i class="ri-user-line"></i></a>
+          <!-- Popup do usuário -->
+          <div class="user-popup" id="user-popup">
+            <div class="popup-content">
+              <p>Faça login para acessar sua conta</p>
+              <a href="login-register.html" class="connect-btn">Conectar-se</a>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -209,5 +217,6 @@
       </section>
     </footer>
   </body>
-  <script src="/scripts/slider.js"></script>
+  <script src="../scripts/slider.js"></script>
+  <script src="../scripts/user-popup.js"></script>
 </html>
