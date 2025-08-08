@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,7 +7,7 @@
     <title>nome do produto</title>
 
     <!-- Import Style -->
-    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="../styles/products.css" />
     <!-- Fav Icon -->
     <link rel="shortcut icon" href="/components/img/fav_icon.png" />
     <!-- Import Remix Icons -->
@@ -18,23 +19,23 @@
   <body>
     <section class="product-content">
       <div class="product-img">
-        <img src="" alt="" />
+        <img id="product-image" src="" alt="Imagem do produto" />
       </div>
 
       <div class="product-text">
         <div class="name">
-          <h1>meu pau na tua mao</h1>
+          <h1 id="product-name">Nome do Produto</h1>
         </div>
         <div class="descript">
-          <span class="components-product">
-            vai ter a descrição daquela determinada parte
+          <span id="product-description" class="components-product">
+            Descrição do produto...
           </span>
         </div>
       </div>
 
       <div class="box-value">
         <div class="value">
-          <h1>Preço do produto</h1>
+          <h1 id="product-price">Preço do produto</h1>
         </div>
         <div class="payment">
           <a href="#"> ver mais opções de pagamento e parcelamento </a>
@@ -50,12 +51,15 @@
         </div>
 
         <div class="frete">
-            <h1>CONSULTE FRETE</h1>
-            <input type="text" class="frete-box" placeholder="Inserir CEP " />
-            <button class="button-frete">OK</button>
-            <div class="remenber-frete">
-                <a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não lembro meu cep</a>
-            </div>
+          <h1>CONSULTE FRETE</h1>
+          <input type="text" class="frete-box" placeholder="Inserir CEP " />
+          <button class="button-frete">OK</button>
+          <div class="remenber-frete">
+            <a
+              href="https://buscacepinter.correios.com.br/app/endereco/index.php"
+              >Não lembro meu cep</a
+            >
+          </div>
         </div>
       </div>
     </section>
