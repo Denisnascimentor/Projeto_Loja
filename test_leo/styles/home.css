@@ -269,12 +269,20 @@ header,
 
 .produtos-destaque {
   display: flex;
-  gap: 12rem;
-  position: absolute;
-  left: 0;
-  top: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 15rem;
+  overflow-x: hidden;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  min-height: 180px;
+  justify-content: flex-start;
+  flex: 1;
 }
-
+.produtos-destaque::-webkit-scrollbar {
+  display: none;
+}
 .produto {
   display: flex;
   flex-direction: column;
@@ -600,4 +608,31 @@ footer .loja-fisica p {
   justify-content: center;
   position: relative;
   gap: 0;
+}
+.promocoes-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 18px;
+}
+.promocoes-arrow {
+  background: transparent;
+  border: none;
+  color: #222;
+  box-shadow: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin: 0 12px;
+}
+.promocoes-arrow:hover {
+  background: #eee;
+  color: #0078ff;
 }

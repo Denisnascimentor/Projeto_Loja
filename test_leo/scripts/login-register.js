@@ -2,7 +2,7 @@ const registerButton = document.getElementById('register');
 const loginButton = document.getElementById('login');
 const container = document.getElementById('container');
 
-// Toggle entre login e cadastro
+
 registerButton.addEventListener('click', () => {
     container.classList.add('right-panel-active');
 });
@@ -11,16 +11,16 @@ loginButton.addEventListener('click', () => {
     container.classList.remove('right-panel-active');
 });
 
-// Funções para gerenciar usuários no localStorage
+
 function saveUser(name, email, password) {
     let users = JSON.parse(localStorage.getItem('users')) || [];
     
-    // Verifica se o email já existe
+
     if (users.some(user => user.email === email)) {
         return { success: false, message: 'Email já está em uso!' };
     }
     
-    // Adiciona o novo usuário
+
     users.push({ name, email, password });
     localStorage.setItem('users', JSON.stringify(users));
     
@@ -39,13 +39,12 @@ function validateUser(email, password) {
 }
 
 function showMessage(message, isSuccess = true) {
-    // Remove mensagem anterior se existir
+
     const existingMessage = document.querySelector('.message');
     if (existingMessage) {
         existingMessage.remove();
     }
     
-    // Cria nova mensagem
     const messageDiv = document.createElement('div');
     messageDiv.className = 'message';
     messageDiv.textContent = message;
@@ -64,13 +63,13 @@ function showMessage(message, isSuccess = true) {
     
     document.body.appendChild(messageDiv);
     
-    // Remove a mensagem após 3 segundos
+ 
     setTimeout(() => {
         messageDiv.remove();
     }, 3000);
 }
 
-// Handle do formulário de cadastro
+
 document.getElementById('registerForm').addEventListener('submit', (e) => {
     e.preventDefault();
     
@@ -87,18 +86,14 @@ document.getElementById('registerForm').addEventListener('submit', (e) => {
     showMessage(result.message, result.success);
     
     if (result.success) {
-        // Permite que o navegador detecte o envio bem-sucedido
-        // para oferecer salvar a senha
+
         setTimeout(() => {
-            // Limpa o formulário
             document.getElementById('registerForm').reset();
-            // Muda para a tela de login
             container.classList.remove('right-panel-active');
         }, 100);
     }
 });
 
-// Handle do formulário de login
 document.getElementById('loginForm').addEventListener('submit', (e) => {
     const email = document.getElementById('loginEmail').value.trim();
     const password = document.getElementById('loginPassword').value;
@@ -112,12 +107,10 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
     const result = validateUser(email, password);
     
     if (result.success) {
-        // Permite que o navegador detecte o login bem-sucedido
-        // para oferecer salvar a senha
-    // Impede o comportamento padrão do formulário
+
     e.preventDefault();
     showMessage(result.message, result.success);
-    // Salva o usuário logado
+
     localStorage.setItem('currentUser', JSON.stringify(result.user));
     window.location.href = 'home.html';
     } else {
@@ -126,18 +119,15 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
     }
 });
 
-// Função para logout (você pode usar em outras páginas)
 function logout() {
     localStorage.removeItem('currentUser');
     window.location.href = 'login-register.html';
 }
 
-// Função para verificar se o usuário está logado (você pode usar em outras páginas)
 function getCurrentUser() {
     return JSON.parse(localStorage.getItem('currentUser'));
 }
 
-// Função para listar todos os usuários cadastrados (apenas para debug)
 function listAllUsers() {
     const users = JSON.parse(localStorage.getItem('users')) || [];
     console.log('Usuários cadastrados:', users);
