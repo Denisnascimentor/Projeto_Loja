@@ -81,35 +81,68 @@ slides.addEventListener("dragstart", (e) => e.preventDefault());
 animate();
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Destaques
   fetch('../components/produtos_destaque.json')
     .then(response => response.json())
     .then(produtos => {
       const box = document.querySelector('.destaques-box');
-      box.innerHTML = '';
-      produtos.forEach(produto => {
-        const card = document.createElement('div');
-        card.className = 'destaque-card';
-        card.innerHTML = `
-          <img src="${produto.imagem}" alt="${produto.nome}" class="destaque-img" />
-          <div class="destaque-info">
-            <span class="destaque-nome">${produto.nome}</span>
-            <span class="destaque-preco">${produto.preco}</span>
-            <span class="destaque-desconto">${produto.desconto}</span>
-          </div>
-        `;
-        box.appendChild(card);
-      });
+      if (box) {
+        box.innerHTML = '';
+        produtos.forEach(produto => {
+          const card = document.createElement('div');
+          card.className = 'destaque-card';
+          card.innerHTML = `
+            <img src="${produto.imagem}" alt="${produto.nome}" class="destaque-img" />
+            <div class="destaque-info">
+              <span class="destaque-nome">${produto.nome}</span>
+              <span class="destaque-preco">${produto.preco}</span>
+              <span class="destaque-desconto">${produto.desconto}</span>
+            </div>
+          `;
+          box.appendChild(card);
+        });
+      }
+    });
+
+  // Mais Vendidos
+  fetch('../components/produtos_mais_vendidos.json')
+    .then(response => response.json())
+    .then(produtos => {
+      const box = document.querySelector('.mais-vendidos-box');
+      if (box) {
+        box.innerHTML = '';
+        produtos.forEach(produto => {
+          const card = document.createElement('div');
+          card.className = 'destaque-card';
+          card.innerHTML = `
+            <img src="${produto.imagem}" alt="${produto.nome}" class="destaque-img" />
+            <div class="destaque-info">
+              <span class="destaque-nome">${produto.nome}</span>
+              <span class="destaque-preco">${produto.preco}</span>
+              <span class="destaque-desconto">${produto.desconto}</span>
+            </div>
+          `;
+          box.appendChild(card);
+        });
+      }
     });
 
   // Slider arrows
-  const leftArrow = document.querySelector('.destaques-slider-arrow.left');
-  const rightArrow = document.querySelector('.destaques-slider-arrow.right');
-  const sliderBox = document.querySelector('.destaques-box');
+  function setupSliderArrows(containerSelector, boxSelector) {
+    const container = document.querySelector(containerSelector);
+    if (!container) return;
+    const leftArrow = container.querySelector('.destaques-slider-arrow.left');
+    const rightArrow = container.querySelector('.destaques-slider-arrow.right');
+    const sliderBox = container.querySelector(boxSelector);
+    if (!leftArrow || !rightArrow || !sliderBox) return;
+    leftArrow.addEventListener('click', function() {
+      sliderBox.scrollBy({ left: -250, behavior: 'smooth' });
+    });
+    rightArrow.addEventListener('click', function() {
+      sliderBox.scrollBy({ left: 250, behavior: 'smooth' });
+    });
+  }
 
-  leftArrow.addEventListener('click', function() {
-    sliderBox.scrollBy({ left: -250, behavior: 'smooth' });
-  });
-  rightArrow.addEventListener('click', function() {
-    sliderBox.scrollBy({ left: 250, behavior: 'smooth' });
-  });
+  setupSliderArrows('.section-destaques .destaques-slider-container', '.destaques-box');
+  setupSliderArrows('.section-mais-vendidos .destaques-slider-container', '.mais-vendidos-box');
 });

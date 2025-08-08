@@ -1,0 +1,44 @@
+[
+  {
+    "nome": "SSD Crucial 240GB",
+    "preco": "R$ 149,90",
+    "desconto": "-25%",
+    "imagem": "/components/img/products/ssd/crucial-240-2.jpg"
+  },
+  {
+    "nome": "RTX 3050",
+    "preco": "R$ 1.299,90",
+    "desconto": "-16%",
+    "imagem": "/components/img/products/gpu/rtx-3050-1.jpg"
+  },
+  {
+    "nome": "Gabinete Sharkoon VS7",
+    "preco": "R$ 399,90",
+    "desconto": "-13%",
+    "imagem": "/components/img/products/gabinete/sharkoon-vs7-1.jpg"
+  },
+  {
+    "nome": "Fonte Gigabyte P550B",
+    "preco": "R$ 349,90",
+    "desconto": "-14%",
+    "imagem": "/components/img/products/fonte/gigabyte-p550b-1.jpg"
+  },
+  {
+    "nome": "RAM XPG 3200MHz",
+    "preco": "R$ 299,90",
+    "desconto": "-22%",
+    "imagem": "/components/img/products/ram/xpg-3200-1.jpg"
+  },
+  {
+    "nome": "Placa-mãe ASUS B550M",
+    "preco": "R$ 799,90",
+    "desconto": "-12%",
+    "imagem": "/components/img/products/motherboard/asus-b550m-1.jpg"
+  },
+  {
+    "nome": "Placa de vídeo RX 6500 XT",
+    "preco": "R$ 1.099,90",
+    "desconto": "-15%",
+    "imagem": "/components/img/products/gpu/rx-6500xt-1.jpg"
+  }
+]
