@@ -127,6 +127,34 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
+  // Carregar produtos promoções do JSON
+  fetch('../components/produtos_promocoes.json')
+    .then(response => response.json())
+    .then(produtos => {
+      const slides = document.getElementById('slides');
+      if (slides) {
+        slides.innerHTML = '';
+        produtos.forEach(produto => {
+          const card = document.createElement('div');
+          card.className = 'produto';
+          card.innerHTML = `
+            <span class="produto-nome" style="display:none">${produto.nome}</span>
+            <img src="${produto.imagem}" alt="${produto.nome}" />
+            <div class="info">
+              <span class="preco-antigo">${produto.preco_antigo}</span>
+              <span class="preco-novo">${produto.preco_novo}</span>
+              <span class="desconto">${produto.desconto}</span>
+            </div>
+          `;
+          // Adiciona evento de clique para ir para a página do produto
+          card.addEventListener('click', function() {
+            window.location.href = `product.html?nome=${encodeURIComponent(produto.nome)}`;
+          });
+          slides.appendChild(card);
+        });
+      }
+    });
+
   // Slider arrows
   function setupSliderArrows(containerSelector, boxSelector) {
     const container = document.querySelector(containerSelector);
@@ -145,4 +173,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
   setupSliderArrows('.section-destaques .destaques-slider-container', '.destaques-box');
   setupSliderArrows('.section-mais-vendidos .destaques-slider-container', '.mais-vendidos-box');
+
+  // Adiciona evento nos cards dos produtos para abrir a página do produto
+  function setupProductClick(boxSelector, cardSelector, nameSelector) {
+    const box = document.querySelector(boxSelector);
+    if (!box) return;
+    box.addEventListener('click', function(e) {
+      const card = e.target.closest(cardSelector);
+      if (card) {
+        const nome = card.querySelector(nameSelector)?.textContent || 'Produto';
+        window.location.href = `product.html?nome=${encodeURIComponent(nome)}`;
+      }
+    });
+  }
+
+  setupProductClick('.destaques-box', '.destaque-card', '.destaque-nome');
+  setupProductClick('.mais-vendidos-box', '.destaque-card', '.destaque-nome');
+  setupProductClick('#slides', '.produto', '.produto-nome');
 });
