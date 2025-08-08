@@ -66,7 +66,9 @@ document.addEventListener('DOMContentLoaded', function() {
           `;
           // Adiciona evento de clique para ir para a página do produto
           card.addEventListener('click', function() {
-            window.location.href = `product.html?nome=${encodeURIComponent(produto.nome)}`;
+            // Substitui espaços por hífens, remove % e encode para URL
+            const nomeUrl = produto.nome.replace(/\s+/g, '-').replace(/%/g, '').toLowerCase();
+            window.location.href = `product.html?nome=${encodeURIComponent(nomeUrl)}`;
           });
           slides.appendChild(card);
         });
