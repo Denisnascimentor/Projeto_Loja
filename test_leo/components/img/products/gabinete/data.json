@@ -1,0 +1,93 @@
+[
+  {
+    "nome": "Gabinete Office Rise Mode XI Black",
+    "preco": "R$ 97,99",
+    "imagem": "corsair-1.jpg",
+    "descricao": "Mini Tower, M-ATX, Preto",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Office Rise Mode XI Black",
+    "preco": "R$ 97,99",
+    "imagem": "corsair-2.jpg",
+    "descricao": "Mini Tower, M-ATX, Preto",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Gamer Fortrek 1",
+    "preco": "R$ 129,99",
+    "imagem": "fortrek-1.jpg",
+    "descricao": "ATX, Preto, Painel Acrílico",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Gamer Fortrek 2",
+    "preco": "R$ 139,99",
+    "imagem": "fortrek-2.jpg",
+    "descricao": "ATX, Preto, LED Blue",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Husky Polar 1",
+    "preco": "R$ 179,99",
+    "imagem": "husky-polar-1.jpg",
+    "descricao": "ARGB, ATX, Vidro Temperado",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Husky Polar 2",
+    "preco": "R$ 184,99",
+    "imagem": "husky-polar-2.jpg",
+    "descricao": "ARGB, ATX, Vidro Temperado",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Redragon 1",
+    "preco": "R$ 199,99",
+    "imagem": "redragon-1.jpg",
+    "descricao": "Gamer, RGB, ATX, Lateral em Vidro",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Redragon 2",
+    "preco": "R$ 209,99",
+    "imagem": "redragon-2.jpg",
+    "descricao": "Gamer, RGB, ATX, Lateral em Vidro",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Sharkoon 1",
+    "preco": "R$ 229,99",
+    "imagem": "sharkoon-1.jpg",
+    "descricao": "Midi Tower, ATX, Preto",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Sharkoon 2",
+    "preco": "R$ 239,99",
+    "imagem": "sharkoon-2.jpg",
+    "descricao": "Midi Tower, ATX, Preto",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Sharkoon VS7-1",
+    "preco": "R$ 249,99",
+    "imagem": "sharkoon-vs7-1.jpg",
+    "descricao": "Midi Tower, ATX, Vidro Temperado",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Sharkoon VS7-2",
+    "preco": "R$ 259,99",
+    "imagem": "sharkoon-vs7-2.jpg",
+    "descricao": "Midi Tower, ATX, Vidro Temperado",
+    "link": "#"
+  },
+  {
+    "nome": "Gabinete Gamer Rise Mode Z3 Glass",
+    "preco": "R$ 144,99",
+    "imagem": "fortrek-1.jpg",
+    "descricao": "Lateral em Vidro Fumê, Preto",
+    "link": "#"
+  }
+]

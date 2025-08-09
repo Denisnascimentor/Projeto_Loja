@@ -1,0 +1,86 @@
+[
+  {
+    "nome": "Fonte Bluecase 230W",
+    "preco": "R$ 79,90",
+    "imagem": "bluecase-230-1.jpg",
+    "descricao": "230W, Bivolt, PFC Ativo, Certificação básica",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte Bluecase 230W",
+    "preco": "R$ 79,90",
+    "imagem": "bluecase-230-2.jpg",
+    "descricao": "230W, Bivolt, PFC Ativo, Certificação básica",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte Gigabyte P450B",
+    "preco": "R$ 239,90",
+    "imagem": "gigabyte-p450b-1.jpg",
+    "descricao": "450W, 80 Plus Bronze, PFC Ativo",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte Gigabyte P450B",
+    "preco": "R$ 239,90",
+    "imagem": "gigabyte-p450b-2.jpg",
+    "descricao": "450W, 80 Plus Bronze, PFC Ativo",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte Gigabyte P550B",
+    "preco": "R$ 269,90",
+    "imagem": "gigabyte-p550b-1.jpg",
+    "descricao": "550W, 80 Plus Bronze, PFC Ativo",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte Gigabyte P550B",
+    "preco": "R$ 269,90",
+    "imagem": "gigabyte-p550b-2.jpg",
+    "descricao": "550W, 80 Plus Bronze, PFC Ativo",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte XPG Core Reactor 650W",
+    "preco": "R$ 399,90",
+    "imagem": "xpg-650-1.jpg",
+    "descricao": "650W, 80 Plus Gold, Modular",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte XPG Core Reactor 650W",
+    "preco": "R$ 399,90",
+    "imagem": "xpg-650-2.jpg",
+    "descricao": "650W, 80 Plus Gold, Modular",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte XPG Core Reactor 750W",
+    "preco": "R$ 449,90",
+    "imagem": "xpg-750-1.jpg",
+    "descricao": "750W, 80 Plus Gold, Modular",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte XPG Core Reactor 750W",
+    "preco": "R$ 449,90",
+    "imagem": "xpg-750-2.jpg",
+    "descricao": "750W, 80 Plus Gold, Modular",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte XPG Core Reactor 850W",
+    "preco": "R$ 529,90",
+    "imagem": "xpg-850-1.jpg",
+    "descricao": "850W, 80 Plus Gold, Modular",
+    "link": "#"
+  },
+  {
+    "nome": "Fonte XPG Core Reactor 850W",
+    "preco": "R$ 529,90",
+    "imagem": "xpg-850-2.jpg",
+    "descricao": "850W, 80 Plus Gold, Modular",
+    "link": "#"
+  }
+]

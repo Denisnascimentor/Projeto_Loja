@@ -1,0 +1,86 @@
+[
+  {
+    "nome": "NVIDIA GeForce RTX 2060",
+    "preco": "R$ 1.599,90",
+    "imagem": "rtx-2060-1.jpg",
+    "descricao": "6GB GDDR6, Ray Tracing, Dual Fan",
+    "link": "#"
+  },
+  {
+    "nome": "NVIDIA GeForce RTX 2060",
+    "preco": "R$ 1.599,90",
+    "imagem": "rtx-2060-2.jpg",
+    "descricao": "6GB GDDR6, Ray Tracing, Dual Fan",
+    "link": "#"
+  },
+  {
+    "nome": "NVIDIA GeForce RTX 3050",
+    "preco": "R$ 2.099,90",
+    "imagem": "rtx-3050-1.jpg",
+    "descricao": "8GB GDDR6, Ray Tracing, Dual Fan",
+    "link": "#"
+  },
+  {
+    "nome": "NVIDIA GeForce RTX 3050",
+    "preco": "R$ 2.099,90",
+    "imagem": "rtx-3050-2.jpg",
+    "descricao": "8GB GDDR6, Ray Tracing, Dual Fan",
+    "link": "#"
+  },
+  {
+    "nome": "NVIDIA GeForce RTX 3060 Ti",
+    "preco": "R$ 2.499,90",
+    "imagem": "rtx-3060ti-1.jpg",
+    "descricao": "8GB GDDR6, Ray Tracing, Dual Fan",
+    "link": "#"
+  },
+  {
+    "nome": "NVIDIA GeForce RTX 3060 Ti",
+    "preco": "R$ 2.499,90",
+    "imagem": "rtx-3060ti-2.jpg",
+    "descricao": "8GB GDDR6, Ray Tracing, Dual Fan",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Radeon RX 550",
+    "preco": "R$ 499,90",
+    "imagem": "rx-550-1.jpg",
+    "descricao": "4GB GDDR5, Compacta, Ideal para escritório e jogos leves",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Radeon RX 550",
+    "preco": "R$ 499,90",
+    "imagem": "rx-550-2.jpg",
+    "descricao": "4GB GDDR5, Compacta, Ideal para escritório e jogos leves",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Radeon RX 6500 XT",
+    "preco": "R$ 1.399,90",
+    "imagem": "rx-6500xt-1.jpg",
+    "descricao": "4GB GDDR6, Gaming, PCIe 4.0",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Radeon RX 6500 XT",
+    "preco": "R$ 1.399,90",
+    "imagem": "rx-6500xt-2.jpg",
+    "descricao": "4GB GDDR6, Gaming, PCIe 4.0",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Radeon RX 6600 XT",
+    "preco": "R$ 2.199,90",
+    "imagem": "rx-6600xt-1.jpg",
+    "descricao": "8GB GDDR6, Alto desempenho, PCIe 4.0",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Radeon RX 6600 XT",
+    "preco": "R$ 2.199,90",
+    "imagem": "rx-6600xt-2.jpg",
+    "descricao": "8GB GDDR6, Alto desempenho, PCIe 4.0",
+    "link": "#"
+  }
+]

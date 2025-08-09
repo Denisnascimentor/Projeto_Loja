@@ -1,0 +1,86 @@
+[
+  {
+    "nome": "Corsair Vengeance 8GB 2400MHz",
+    "preco": "R$ 149,90",
+    "imagem": "corsair-2400-1.jpg",
+    "descricao": "DDR4, 8GB, 2400MHz",
+    "link": "#"
+  },
+  {
+    "nome": "Corsair Vengeance 8GB 2400MHz",
+    "preco": "R$ 149,90",
+    "imagem": "corsair-2400-2.jpg",
+    "descricao": "DDR4, 8GB, 2400MHz",
+    "link": "#"
+  },
+  {
+    "nome": "Crucial Ballistix 8GB 2666MHz",
+    "preco": "R$ 159,90",
+    "imagem": "crucial-2666-1.jpg",
+    "descricao": "DDR4, 8GB, 2666MHz",
+    "link": "#"
+  },
+  {
+    "nome": "Crucial Ballistix 8GB 2666MHz",
+    "preco": "R$ 159,90",
+    "imagem": "crucial-2666-2.jpg",
+    "descricao": "DDR4, 8GB, 2666MHz",
+    "link": "#"
+  },
+  {
+    "nome": "Crucial Ballistix 8GB 3000MHz",
+    "preco": "R$ 179,90",
+    "imagem": "crucial-3000-1.jpg",
+    "descricao": "DDR4, 8GB, 3000MHz",
+    "link": "#"
+  },
+  {
+    "nome": "Crucial Ballistix 8GB 3000MHz",
+    "preco": "R$ 179,90",
+    "imagem": "crucial-3000-2.jpg",
+    "descricao": "DDR4, 8GB, 3000MHz",
+    "link": "#"
+  },
+  {
+    "nome": "XPG Gammix D30 8GB 3200MHz",
+    "preco": "R$ 199,90",
+    "imagem": "xpg-3200-1.jpg",
+    "descricao": "DDR4, 8GB, 3200MHz",
+    "link": "#"
+  },
+  {
+    "nome": "XPG Gammix D30 8GB 3200MHz",
+    "preco": "R$ 199,90",
+    "imagem": "xpg-3200-2.jpg",
+    "descricao": "DDR4, 8GB, 3200MHz",
+    "link": "#"
+  },
+  {
+    "nome": "XPG Gammix D30 8GB 3600MHz",
+    "preco": "R$ 219,90",
+    "imagem": "xpg-3600-1.jpg",
+    "descricao": "DDR4, 8GB, 3600MHz",
+    "link": "#"
+  },
+  {
+    "nome": "XPG Gammix D30 8GB 3600MHz",
+    "preco": "R$ 219,90",
+    "imagem": "xpg-3600-2.jpg",
+    "descricao": "DDR4, 8GB, 3600MHz",
+    "link": "#"
+  },
+  {
+    "nome": "XPG Gammix D30 8GB 4133MHz",
+    "preco": "R$ 249,90",
+    "imagem": "xpg-4133-1.jpg",
+    "descricao": "DDR4, 8GB, 4133MHz",
+    "link": "#"
+  },
+  {
+    "nome": "XPG Gammix D30 8GB 4133MHz",
+    "preco": "R$ 249,90",
+    "imagem": "xpg-4133-2.jpg",
+    "descricao": "DDR4, 8GB, 4133MHz",
+    "link": "#"
+  }
+]

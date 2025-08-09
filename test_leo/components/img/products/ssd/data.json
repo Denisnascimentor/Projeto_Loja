@@ -1,0 +1,86 @@
+[
+  {
+    "nome": "SSD Crucial 240GB",
+    "preco": "R$ 129,90",
+    "imagem": "crucial-240-1.jpg",
+    "descricao": "SATA III, Leitura até 500MB/s, 240GB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD Crucial 240GB",
+    "preco": "R$ 129,90",
+    "imagem": "crucial-240-2.jpg",
+    "descricao": "SATA III, Leitura até 500MB/s, 240GB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD Husky 128GB",
+    "preco": "R$ 89,90",
+    "imagem": "husky-128-1.jpg",
+    "descricao": "SATA III, Leitura até 450MB/s, 128GB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD Husky 128GB",
+    "preco": "R$ 89,90",
+    "imagem": "husky-128-2.jpg",
+    "descricao": "SATA III, Leitura até 450MB/s, 128GB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD Kingston 500GB",
+    "preco": "R$ 249,90",
+    "imagem": "kingston-500-1.jpg",
+    "descricao": "SATA III, Leitura até 500MB/s, 500GB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD Kingston 500GB",
+    "preco": "R$ 249,90",
+    "imagem": "kingston-500-2.jpg",
+    "descricao": "SATA III, Leitura até 500MB/s, 500GB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD WD Green 2TB",
+    "preco": "R$ 769,90",
+    "imagem": "wd-2tb-1.jpg",
+    "descricao": "SATA III, Leitura até 545MB/s, 2TB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD WD Green 2TB",
+    "preco": "R$ 769,90",
+    "imagem": "wd-2tb-2.jpg",
+    "descricao": "SATA III, Leitura até 545MB/s, 2TB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD WD Green 480GB",
+    "preco": "R$ 199,90",
+    "imagem": "wd-480-1.jpg",
+    "descricao": "SATA III, Leitura até 545MB/s, 480GB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD WD Green 480GB",
+    "preco": "R$ 199,90",
+    "imagem": "wd-480-2.jpg",
+    "descricao": "SATA III, Leitura até 545MB/s, 480GB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD XPG 1TB",
+    "preco": "R$ 369,90",
+    "imagem": "xpg-1tb-1.jpg",
+    "descricao": "NVMe, Leitura até 2100MB/s, 1TB",
+    "link": "#"
+  },
+  {
+    "nome": "SSD XPG 1TB",
+    "preco": "R$ 369,90",
+    "imagem": "xpg-1tb-2.jpg",
+    "descricao": "NVMe, Leitura até 2100MB/s, 1TB",
+    "link": "#"
+  }
+]

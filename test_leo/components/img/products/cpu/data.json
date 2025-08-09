@@ -1,0 +1,86 @@
+[
+  {
+    "nome": "Intel Core i3",
+    "preco": "R$ 499,90",
+    "imagem": "i3-1.jpg",
+    "descricao": "4 núcleos, 8 threads, até 4.3GHz, LGA 1200",
+    "link": "#"
+  },
+  {
+    "nome": "Intel Core i3",
+    "preco": "R$ 499,90",
+    "imagem": "i3-2.jpg",
+    "descricao": "4 núcleos, 8 threads, até 4.3GHz, LGA 1200",
+    "link": "#"
+  },
+  {
+    "nome": "Intel Core i5",
+    "preco": "R$ 749,90",
+    "imagem": "i5-1.jpg",
+    "descricao": "6 núcleos, 12 threads, até 4.3GHz, LGA 1200",
+    "link": "#"
+  },
+  {
+    "nome": "Intel Core i5",
+    "preco": "R$ 749,90",
+    "imagem": "i5-2.jpg",
+    "descricao": "6 núcleos, 12 threads, até 4.3GHz, LGA 1200",
+    "link": "#"
+  },
+  {
+    "nome": "Intel Core i7",
+    "preco": "R$ 1.299,90",
+    "imagem": "i7-1.jpg",
+    "descricao": "8 núcleos, 16 threads, até 4.8GHz, LGA 1200",
+    "link": "#"
+  },
+  {
+    "nome": "Intel Core i7",
+    "preco": "R$ 1.299,90",
+    "imagem": "i7-2.jpg",
+    "descricao": "8 núcleos, 16 threads, até 4.8GHz, LGA 1200",
+    "link": "#"
+  },
+  {
+    "nome": "Intel Core i9",
+    "preco": "R$ 2.499,90",
+    "imagem": "i9-1.jpg",
+    "descricao": "8 núcleos, 16 threads, até 5.3GHz, LGA 1200",
+    "link": "#"
+  },
+  {
+    "nome": "Intel Core i9",
+    "preco": "R$ 2.499,90",
+    "imagem": "i9-2.jpg",
+    "descricao": "8 núcleos, 16 threads, até 5.3GHz, LGA 1200",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Ryzen 3",
+    "preco": "R$ 499,99",
+    "imagem": "r3-1.jpg",
+    "descricao": "4 núcleos, 4 threads, até 4.0GHz, AM4",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Ryzen 5",
+    "preco": "R$ 799,90",
+    "imagem": "r5-1.jpg",
+    "descricao": "6 núcleos, 12 threads, até 4.4GHz, AM4",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Ryzen 7",
+    "preco": "R$ 1.299,90",
+    "imagem": "r7-1.jpg",
+    "descricao": "8 núcleos, 16 threads, até 4.6GHz, AM4",
+    "link": "#"
+  },
+  {
+    "nome": "AMD Ryzen 9",
+    "preco": "R$ 3.299,90",
+    "imagem": "r9-1.jpg",
+    "descricao": "12 núcleos, 24 threads, até 4.8GHz, AM4",
+    "link": "#"
+  }
+]

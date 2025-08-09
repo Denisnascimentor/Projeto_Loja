@@ -1,0 +1,86 @@
+[
+  {
+    "nome": "ASRock B450M",
+    "preco": "R$ 499,90",
+    "imagem": "asrock-b450m-1.jpg",
+    "descricao": "Socket AM4, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "ASRock B450M",
+    "preco": "R$ 499,90",
+    "imagem": "asrock-b450m-2.jpg",
+    "descricao": "Socket AM4, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "Asus B550M",
+    "preco": "R$ 789,90",
+    "imagem": "asus-b550m-1.jpg",
+    "descricao": "Socket AM4, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "Asus B550M",
+    "preco": "R$ 789,90",
+    "imagem": "asus-b550m-2.jpg",
+    "descricao": "Socket AM4, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "Asus H510M",
+    "preco": "R$ 599,90",
+    "imagem": "asus-h510m-1.jpg",
+    "descricao": "Socket LGA 1200, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "Asus H510M",
+    "preco": "R$ 599,90",
+    "imagem": "asus-h510m-2.jpg",
+    "descricao": "Socket LGA 1200, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "Gigabyte B560M",
+    "preco": "R$ 819,90",
+    "imagem": "gigabyte-b560m-1.jpg",
+    "descricao": "Socket LGA 1200, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "Gigabyte B560M",
+    "preco": "R$ 819,90",
+    "imagem": "gigabyte-b560m-2.jpg",
+    "descricao": "Socket LGA 1200, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "Gigabyte H510M",
+    "preco": "R$ 599,90",
+    "imagem": "gigabyte-h510m-1.jpg",
+    "descricao": "Socket LGA 1200, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "Gigabyte H510M",
+    "preco": "R$ 599,90",
+    "imagem": "gigabyte-h510m-2.jpg",
+    "descricao": "Socket LGA 1200, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "MSI B450M",
+    "preco": "R$ 649,90",
+    "imagem": "msi-b450m-1.jpg",
+    "descricao": "Socket AM4, DDR4, mATX",
+    "link": "#"
+  },
+  {
+    "nome": "MSI B450M",
+    "preco": "R$ 649,90",
+    "imagem": "msi-b450m-2.jpg",
+    "descricao": "Socket AM4, DDR4, mATX",
+    "link": "#"
+  }
+]
