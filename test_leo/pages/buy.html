@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caixa</title>
+    <link rel="stylesheet" href="/styles/caixa.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="checkout-box">
+      <div class="checkout-steps-simple">
+        <span class="step active"><i class="ri-home-4-line"></i> Endereço</span>
+        <span class="divider"></span>
+        <span class="step"><i class="ri-currency-line"></i> Pagamento</span>
+        <span class="divider"></span>
+        <span class="step"><i class="ri-checkbox-line"></i> Confirmação</span>
+      </div>
+      <div class="checkout-content">
+        <section id="step-entrega">
+          <h2>Forma de entrega</h2>
+          <form id="address-form">
+            <div class="form-row">
+              <label for="cep">CEP</label>
+              <input type="text" id="cep" name="cep" placeholder="00000-000" maxlength="9" required />
+            </div>
+            <div class="form-row">
+              <label for="endereco">Endereço</label>
+              <input type="text" id="endereco" name="endereco" placeholder="Rua, avenida..." required />
+            </div>
+            <div class="form-row">
+              <label for="numero">Número</label>
+              <input type="text" id="numero" name="numero" placeholder="Nº" required />
+            </div>
+            <div class="form-row">
+              <label for="complemento">Complemento (opcional)</label>
+              <input type="text" id="complemento" name="complemento" placeholder="Apto, bloco, referência..." />
+            </div>
+            <div class="form-row">
+              <label for="bairro">Bairro</label>
+              <input type="text" id="bairro" name="bairro" required />
+            </div>
+            <div class="form-row">
+              <label for="cidade">Cidade</label>
+              <input type="text" id="cidade" name="cidade" required />
+            </div>
+            <div class="form-row">
+              <label for="estado">Estado</label>
+              <select id="estado" name="estado" required>
+                <option value="" disabled selected>Selecione</option>
+                <option>AC</option><option>AL</option><option>AP</option><option>AM</option>
+                <option>BA</option><option>CE</option><option>DF</option><option>ES</option>
+                <option>GO</option><option>MA</option><option>MT</option><option>MS</option>
+                <option>MG</option><option>PA</option><option>PB</option><option>PR</option>
+                <option>PE</option><option>PI</option><option>RJ</option><option>RN</option>
+                <option>RS</option><option>RO</option><option>RR</option><option>SC</option>
+                <option>SP</option><option>SE</option><option>TO</option>
+              </select>
+            </div>
+            <fieldset class="form-row">
+              <legend>Opção de entrega</legend>
+              <label><input type="radio" name="entrega" value="entrega" checked /> Entrega no endereço</label>
+              <label><input type="radio" name="entrega" value="retirada" /> Retirar na loja</label>
+            </fieldset>
+            <div class="form-actions">
+              <button type="button" id="btn-continuar">Continuar para pagamento</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <script src="../scripts/product.js"></script>
+  </body>
 </html>
