@@ -169,8 +169,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       if (steps[2]) steps[2].classList.add("active");
       content.innerHTML = `
         <section id="step-confirmacao">
-          <h2>Confirmação</h2>
-          <p>Revise seus dados e finalize a compra.</p>
+          <p class="confirm-message">Obrigado pela compra, mandaremos sua NF no email.</p>
         </section>
       `;
     }

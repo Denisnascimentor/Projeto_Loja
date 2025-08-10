@@ -160,3 +160,19 @@ fieldset.form-row label {
   padding: 10px 12px;
   border-radius: 8px;
 }
+
+/* Confirmation */
+#step-confirmacao {
+  display: grid;
+  place-items: center;
+  min-height: 200px;
+}
+.confirm-message {
+  font-size: 20px;
+  color: #1b3a1b;
+  background: #eef9ee;
+  border: 1px dashed #8fd38f;
+  padding: 16px 18px;
+  border-radius: 10px;
+  text-align: center;
+}
